@@ -1,0 +1,6 @@
+method,global_modularity_guard,global_modularity_tolerance,NMI,ARI,modularity,num_communities,refinement_candidates,communities_refined,runtime_seconds
+Baseline Louvain,,,0.843145,0.330277,0.926324,239,,,21.72
+CASR Stage 1 only,,,0.872357,0.425495,0.927651,360,,,438.28
+CASR Stage 2 (local only),False,0.0,0.904747,0.482994,0.891152,2858,79,79,448.51
+CASR Stage 2 (+ global Q guard strict),True,0.0,0.872357,0.425495,0.927651,360,79,0,547.46
+CASR Stage 2 (+ global Q guard tol=0.001),True,0.001,0.895357,0.460404,0.907145,2428,79,71,548.0

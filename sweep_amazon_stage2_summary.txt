@@ -1,0 +1,22 @@
+=== Baseline Louvain ===
+ num_communities  modularity      NMI      ARI  labeled_nodes           method stability_threshold min_size refinement_candidates communities_refined stage1_seconds  stage2_seconds
+             239    0.926324 0.843145 0.330277          16716 baseline_louvain                None     None                  None                None           None       20.993511
+
+=== Stage 1 only (coarse) ===
+NMI=0.872357 ARI=0.425495 modularity=0.927651 communities=360
+
+=== Top configs by NMI (Stage 2 activated) ===
+ stability_threshold  min_size      NMI      ARI  modularity  num_communities  refinement_candidates  communities_refined  stage2_seconds  stage1_seconds  delta_NMI_vs_stage1  delta_ARI_vs_stage1  delta_NMI_vs_baseline  delta_ARI_vs_baseline
+                0.99        10 0.904747 0.482994    0.891152             2858                     79                   79        8.738852      422.281205             0.032391             0.057499               0.061602               0.152717
+                0.99        20 0.904747 0.482994    0.891152             2858                     79                   79        7.812258      422.281205             0.032391             0.057499               0.061602               0.152717
+                0.99        30 0.904747 0.482994    0.891152             2858                     79                   79        7.764900      422.281205             0.032391             0.057499               0.061602               0.152717
+                0.99        50 0.904747 0.482994    0.891152             2858                     79                   79        7.811813      422.281205             0.032391             0.057499               0.061602               0.152717
+                0.99       100 0.904747 0.482994    0.891152             2858                     79                   79        8.012519      422.281205             0.032391             0.057499               0.061602               0.152717
+
+=== Best overall NMI ===
+ stability_threshold  min_size      NMI      ARI  modularity  num_communities  refinement_candidates  communities_refined  stage2_seconds  stage1_seconds  delta_NMI_vs_stage1  delta_ARI_vs_stage1  delta_NMI_vs_baseline  delta_ARI_vs_baseline
+                0.99        10 0.904747 0.482994    0.891152             2858                     79                   79        8.738852      422.281205             0.032391             0.057499               0.061602               0.152717
+                0.99        30 0.904747 0.482994    0.891152             2858                     79                   79        7.764900      422.281205             0.032391             0.057499               0.061602               0.152717
+                0.99        50 0.904747 0.482994    0.891152             2858                     79                   79        7.811813      422.281205             0.032391             0.057499               0.061602               0.152717
+                0.99       100 0.904747 0.482994    0.891152             2858                     79                   79        8.012519      422.281205             0.032391             0.057499               0.061602               0.152717
+                0.99        20 0.904747 0.482994    0.891152             2858                     79                   79        7.812258      422.281205             0.032391             0.057499               0.061602               0.152717
